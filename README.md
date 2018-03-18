@@ -1,11 +1,11 @@
-### vim-2018
+### Install IDE
 
-`git clone https://github.com/evrybiont/vim.git ~/.vim`
+    `git clone https://github.com/evrybiont/vim.git ~/.vim`
 
-`git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
+    `git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
 
-`ln -s  ~/.vim/.vimrc ~/.vimrc`
+    `ln -s  ~/.vim/.vimrc ~/.vimrc`
 
-`sudo apt-get install exuberant-ctags`
+    `sudo apt install exuberant-ctags`
 
-`BundleInstall`
+    `BundleInstall` - run from editor console

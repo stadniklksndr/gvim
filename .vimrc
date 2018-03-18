@@ -8,9 +8,14 @@ call vundle#begin()
 " Alternatively, Pass A Path Where Vundle Should Install Plugins
 " Call vundle#begin('~/some/path/here')
 
-" Let Vundle Manage Vundle, Required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
+" https://github.com/VundleVim/Vundle.vim
+Plugin 'VundleVim/Vundle.vim'    " ---------------> Plug-in manager for Vim
+
+" https://github.com/vim-airline/vim-airline
+Plugin 'vim-airline/vim-airline' " ---------------> Status Line At The Bottom Of Each Window
+
+" https://github.com/tpope/vim-fugitive
+Plugin 'tpope/vim-fugitive'      " ---------------> Git wrapper
 
 " Precision Colorscheme
 Plugin 'altercation/vim-colors-solarized'
