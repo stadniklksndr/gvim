@@ -1,4 +1,4 @@
-### Install IDE
+# Install IDE
 
     git clone https://github.com/stadniklksndr/gvim.git ~/.vim
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
