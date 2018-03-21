@@ -6,8 +6,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 
 
-
-
 " Alternatively, Pass A Path Where Vundle Should Install Plugins
 " Call vundle#begin('~/some/path/here')
 call vundle#begin()
@@ -74,8 +72,6 @@ Plugin 'digitaltoad/vim-pug.git'
 
 " All Of Your Plugins Must Be Added Before The Following Line
 call vundle#end()
-
-
 
 
 " Vim-Airline Configs (:h airline)
