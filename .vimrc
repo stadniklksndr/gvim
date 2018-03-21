@@ -1,21 +1,25 @@
-set nocompatible              " Be IMproved, Required
-filetype off                  " Required
+" Required
+set nocompatible
+filetype off
 
 " Set The Runtime Path To Include Vundle And Initialize
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+
+
+
 
 " Alternatively, Pass A Path Where Vundle Should Install Plugins
 " Call vundle#begin('~/some/path/here')
+call vundle#begin()
 
-" https://github.com/VundleVim/Vundle.vim
-Plugin 'VundleVim/Vundle.vim'    " ---------------> Plug-in manager for Vim
+" Plug-in manager for Vim ~ https://github.com/VundleVim/Vundle.vim
+Plugin 'VundleVim/Vundle.vim'
 
-" https://github.com/vim-airline/vim-airline
-Plugin 'vim-airline/vim-airline' " ---------------> Status Line At The Bottom Of Each Window
+" Status Line At The Bottom Of Each Window ~ https://github.com/vim-airline/vim-airline
+Plugin 'vim-airline/vim-airline'
 
-" https://github.com/tpope/vim-fugitive
-Plugin 'tpope/vim-fugitive'      " ---------------> Git wrapper
+" Git wrapper ~ https://github.com/tpope/vim-fugitive
+Plugin 'tpope/vim-fugitive'
 
 " Precision Colorscheme
 Plugin 'altercation/vim-colors-solarized'
@@ -69,11 +73,21 @@ Plugin 'L9'
 Plugin 'digitaltoad/vim-pug.git'
 
 " All Of Your Plugins Must Be Added Before The Following Line
+call vundle#end()
 
-call vundle#end()            " Required
-filetype plugin indent on    " Required
-" To Ignore Plugin Indent Changes, Instead Use:
-"filetype plugin on
+
+
+
+" Vim-Airline Configs (:h airline)
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.branch = '⭡'
+
+
+" Required! To Ignore Plugin Indent Changes, Instead Use: filetype plugin on
+filetype plugin indent on
 
 " Brief help
 " :PluginList       - Lists Configured Plugins
