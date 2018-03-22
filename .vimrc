@@ -19,9 +19,6 @@ Plugin 'vim-airline/vim-airline'
 " Git wrapper ~ https://github.com/tpope/vim-fugitive
 Plugin 'tpope/vim-fugitive'
 
-" Precision Colorscheme
-Plugin 'altercation/vim-colors-solarized'
-
 " A Tree Explorer
 Plugin 'scrooloose/nerdtree'
 
