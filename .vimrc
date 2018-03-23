@@ -16,6 +16,9 @@ Plugin 'VundleVim/Vundle.vim'
 " Status Line At The Bottom Of Each Window ~ https://github.com/vim-airline/vim-airline
 Plugin 'vim-airline/vim-airline'
 
+" Collection of themes for vim-airline ~ https://github.com/vim-airline/vim-airline-themes
+Plugin 'vim-airline/vim-airline-themes'
+
 " Git wrapper ~ https://github.com/tpope/vim-fugitive
 Plugin 'tpope/vim-fugitive'
 
@@ -71,12 +74,15 @@ Plugin 'digitaltoad/vim-pug.git'
 call vundle#end()
 
 
-" Vim-Airline Configs (:h airline)
+" vim-airline (:h airline)
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 let g:airline_symbols.branch = '⭡'
+
+" vim-airline-themes
+let g:airline_theme='base16_pop'
 
 
 " Required! To Ignore Plugin Indent Changes, Instead Use: filetype plugin on
