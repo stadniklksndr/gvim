@@ -22,7 +22,7 @@ Plugin 'vim-airline/vim-airline-themes'
 " Git wrapper ~ https://github.com/tpope/vim-fugitive
 Plugin 'tpope/vim-fugitive'
 
-" A Tree Explorer
+" Tree Explorer ~ https://github.com/scrooloose/nerdtree
 Plugin 'scrooloose/nerdtree'
 
 " Syntax Checking
@@ -84,6 +84,10 @@ let g:airline_symbols.branch = '⭡'
 " vim-airline-themes
 let g:airline_theme='base16_pop'
 
+" nerdtree
+map <F2> :NERDTreeToggle<CR>
+map ww :tabnew<CR>:NERDTreeToggle<CR>
+
 
 " Required! To Ignore Plugin Indent Changes, Instead Use: filetype plugin on
 filetype plugin indent on
@@ -102,10 +106,6 @@ syntax enable
 set background=dark
 colorscheme Tomorrow-Night
 
-
-" Nerdtree
-map <F2> :NERDTreeToggle<CR>
-:map ww :tabnew<CR>:NERDTreeToggle<CR>
 
 " NERDTress File Highlighting
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)

@@ -24,3 +24,12 @@ sudo apt install fonts-powerline
   * `:Git branch`
   * `:Git checkout master`
   * [more info](https://github.com/tpope/vim-fugitive#fugitivevim)
+
+* [Tree Explorer](https://github.com/scrooloose/nerdtree)
+  * `:help NERDTree.txt` ~ nerdtree-contents
+  * `<F2>` ~ open nerdtree
+  * `ww` ~ new tab
+  * `ctrl+w+q` ~ close tab
+  * `ctrl + (pgup/pgdn)` ~ change tab
+  * `shift + i` ~ toggle hidden files
+  * [f.a.q.](https://github.com/scrooloose/nerdtree/wiki/F.A.Q.)
