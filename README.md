@@ -32,4 +32,5 @@ sudo apt install fonts-powerline
   * `ctrl+w+q` ~ close tab
   * `ctrl + (pgup/pgdn)` ~ change tab
   * `shift + i` ~ toggle hidden files
+  * `NERDTreeHighlightFile` ~ add/change nerdtree file highlighting from .vimrc
   * [f.a.q.](https://github.com/scrooloose/nerdtree/wiki/F.A.Q.)

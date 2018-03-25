@@ -88,6 +88,29 @@ let g:airline_theme='base16_pop'
 map <F2> :NERDTreeToggle<CR>
 map ww :tabnew<CR>:NERDTreeToggle<CR>
 
+" nerdtree file highlighting
+function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
+ exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
+ exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
+endfunction
+
+call NERDTreeHighlightFile('rb', 'Magenta', 'none', '#F56C6C', '#151515')
+call NERDTreeHighlightFile('coffee', 'Red', 'none', '#12D900', '#151515')
+call NERDTreeHighlightFile('js', 'Red', 'none', '#f0db4f', '#151515')
+call NERDTreeHighlightFile('json', 'yellow', 'none', '#8EE635', '#151515')
+call NERDTreeHighlightFile('yml', 'yellow', 'none', '#94ED8C', '#151515')
+call NERDTreeHighlightFile('html', 'yellow', 'none', '#e46425', '#151515')
+call NERDTreeHighlightFile('erb', 'yellow', 'none', '#35E68E', '#151515')
+call NERDTreeHighlightFile('haml', 'yellow', 'none', '#e46425', '#151515')
+call NERDTreeHighlightFile('jbuilder', 'yellow', 'none', '#32C9C9', '#151515')
+call NERDTreeHighlightFile('scss', 'cyan', 'none', '#24abe2', '#151515')
+call NERDTreeHighlightFile('conf', 'yellow', 'none', 'yellow', '#151515')
+call NERDTreeHighlightFile('md', 'blue', 'none', '#3366FF', '#151515')
+call NERDTreeHighlightFile('config', 'yellow', 'none', 'yellow', '#151515')
+call NERDTreeHighlightFile('example', 'yellow', 'none', '#FAA7E5', '#151515')
+call NERDTreeHighlightFile('png', 'yellow', 'none', '#FAF0A7', '#151515')
+call NERDTreeHighlightFile('jpg', 'yellow', 'none', '#FAAD69', '#151515')
+call NERDTreeHighlightFile('.vimrc', 'yellow', 'none', '#90FA7D', '#151515')
 
 " Required! To Ignore Plugin Indent Changes, Instead Use: filetype plugin on
 filetype plugin indent on
@@ -106,40 +129,18 @@ syntax enable
 set background=dark
 colorscheme Tomorrow-Night
 
-
-" NERDTress File Highlighting
-function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
- exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
- exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
-endfunction
-
-call NERDTreeHighlightFile('jade', 'green', 'none', 'green', '#151515')
-call NERDTreeHighlightFile('ini', 'yellow', 'none', 'yellow', '#151515')
-call NERDTreeHighlightFile('md', 'blue', 'none', '#3366FF', '#151515')
-call NERDTreeHighlightFile('yml', 'yellow', 'none', 'yellow', '#151515')
-call NERDTreeHighlightFile('config', 'yellow', 'none', 'yellow', '#151515')
-call NERDTreeHighlightFile('conf', 'yellow', 'none', 'yellow', '#151515')
-call NERDTreeHighlightFile('json', 'yellow', 'none', 'yellow', '#151515')
-call NERDTreeHighlightFile('html', 'yellow', 'none', 'yellow', '#151515')
-call NERDTreeHighlightFile('styl', 'cyan', 'none', 'cyan', '#151515')
-call NERDTreeHighlightFile('css', 'cyan', 'none', 'cyan', '#151515')
-call NERDTreeHighlightFile('coffee', 'Red', 'none', 'red', '#151515')
-call NERDTreeHighlightFile('js', 'Red', 'none', '#ffa500', '#151515')
-call NERDTreeHighlightFile('php', 'Magenta', 'none', '#ff00ff', '#151515')
-
 "Save File
 :map <C-s> :w<cr>
 
-" Syntax Checking
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['standard']
+" Syntax Checking ==
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
+" let g:syntastic_javascript_checkers = ['standard']
 
 " Move Line Down
 :nnoremap <A-DOWN> :m+<CR>==
