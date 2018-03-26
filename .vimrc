@@ -25,6 +25,9 @@ Plugin 'tpope/vim-fugitive'
 " Tree Explorer ~ https://github.com/scrooloose/nerdtree
 Plugin 'scrooloose/nerdtree'
 
+" Showing git status flags ~ https://github.com/Xuyuanp/nerdtree-git-plugin
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+
 " Syntax Checking
 Plugin 'vim-syntastic/syntastic'
 
