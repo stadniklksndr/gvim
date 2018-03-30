@@ -113,7 +113,6 @@ call NERDTreeHighlightFile('config', 'yellow', 'none', 'yellow', '#151515')
 call NERDTreeHighlightFile('example', 'yellow', 'none', '#FAA7E5', '#151515')
 call NERDTreeHighlightFile('png', 'yellow', 'none', '#FAF0A7', '#151515')
 call NERDTreeHighlightFile('jpg', 'yellow', 'none', '#FAAD69', '#151515')
-call NERDTreeHighlightFile('.vimrc', 'yellow', 'none', '#90FA7D', '#151515')
 
 " Required! To Ignore Plugin Indent Changes, Instead Use: filetype plugin on
 filetype plugin indent on
@@ -168,6 +167,8 @@ colorscheme Tomorrow-Night
 " Taglist
 ":help taglist
 
-" Set vim window
+
+" Set vim settings
 set number
 set lines=1000 columns=1000
+set expandtab ts=2 sw=2 ai
