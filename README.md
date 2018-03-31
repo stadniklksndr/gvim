@@ -36,3 +36,5 @@ sudo apt install fonts-powerline
   * [f.a.q.](https://github.com/scrooloose/nerdtree/wiki/F.A.Q.)
 
 * [Showing git status flags](https://github.com/Xuyuanp/nerdtree-git-plugin)
+
+* [Syntax Checking](https://github.com/vim-syntastic/syntastic)

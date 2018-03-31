@@ -28,7 +28,7 @@ Plugin 'scrooloose/nerdtree'
 " Showing git status flags ~ https://github.com/Xuyuanp/nerdtree-git-plugin
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
-" Syntax Checking
+" Syntax Checking ~ https://github.com/vim-syntastic/syntastic
 Plugin 'vim-syntastic/syntastic'
 
 " Shows A Git Diff In The Gutter
