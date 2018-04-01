@@ -114,20 +114,6 @@ call NERDTreeHighlightFile('example', 'yellow', 'none', '#FAA7E5', '#151515')
 call NERDTreeHighlightFile('png', 'yellow', 'none', '#FAF0A7', '#151515')
 call NERDTreeHighlightFile('jpg', 'yellow', 'none', '#FAAD69', '#151515')
 
-" Brief help
-" :PluginList       - Lists Configured Plugins
-" :PluginInstall    - Installs Plugins; Append `!` To Update Or Just :PluginUpdate
-" :PluginSearch foo - Searches For Foo; Append `!` To Refresh Local Cache
-" :PluginClean      - Confirms Removal Of Unused Plugins; Append `!` To Auto-Approve Removal
-
-" See :h Vundle For More Details Or Wiki For FAQ
-" Put Your Non-Plugin Stuff After This Line
-
-" Vim Colors
-syntax enable
-set background=dark
-colorscheme Tomorrow-Night
-
 "Save File
 :map <C-s> :w<cr>
 
@@ -164,12 +150,16 @@ colorscheme Tomorrow-Night
 " Taglist
 ":help taglist
 
+" Vim can detect the type of file that is edited.  This is done by checking the
+" file name and sometimes by inspecting the contents of the file for specific text.
+" http://vimdoc.sourceforge.net/htmldoc/filetype.html
+filetype plugin indent on
+
 " Set vim settings
 set number
 set lines=1000 columns=1000
 set expandtab ts=2 sw=2 ai
 
-" Vim can detect the type of file that is edited.  This is done by checking the
-" file name and sometimes by inspecting the contents of the file for specific text.
-" http://vimdoc.sourceforge.net/htmldoc/filetype.html
-filetype plugin indent on
+syntax enable
+set background=dark
+colorscheme Tomorrow-Night
