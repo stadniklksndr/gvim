@@ -39,9 +39,9 @@ sudo apt install fonts-powerline
 
 * [Syntax Checking](https://github.com/vim-syntastic/syntastic)
 
-* Brief help
- * `PluginList` ~ Lists configured plugins
- * `PluginInstall` ~ Installs plugins; Append `!` to update or just `:PluginUpdate`
- * `PluginSearch` ~ Searches plugin; Append `!` to refresh local cache
- * `PluginClean` ~ Confirms removal of unused plugins; Append `!` to auto-approve removal
- * `:h PlaginName` ~ More details about plugin
+* **Brief help**
+  * `PluginList` ~ Lists configured plugins
+  * `PluginInstall` ~ Installs plugins; Append `!` to update or just `:PluginUpdate`
+  * `PluginSearch` ~ Searches plugin; Append `!` to refresh local cache
+  * `PluginClean` ~ Confirms removal of unused plugins; Append `!` to auto-approve removal
+  * `:h PlaginName` ~ More details about plugin
