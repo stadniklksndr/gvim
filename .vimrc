@@ -156,6 +156,7 @@ call NERDTreeHighlightFile('jpg', 'yellow', 'none', '#FAAD69', '#151515')
 filetype plugin indent on
 
 " Set vim settings
+set noswapfile
 set number
 set lines=1000 columns=1000
 set expandtab ts=2 sw=2 ai
