@@ -77,6 +77,22 @@ Plugin 'digitaltoad/vim-pug.git'
 call vundle#end()
 
 
+" Vim can detect the type of file that is edited.  This is done by checking the
+" file name and sometimes by inspecting the contents of the file for specific text.
+" http://vimdoc.sourceforge.net/htmldoc/filetype.html
+filetype plugin indent on
+
+" Set vim settings
+set noswapfile
+set number
+set lines=1000 columns=1000
+set expandtab ts=2 sw=2 ai
+
+syntax enable
+set background=dark
+colorscheme Tomorrow-Night
+
+
 " vim-airline (:h airline)
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
@@ -149,18 +165,3 @@ call NERDTreeHighlightFile('jpg', 'yellow', 'none', '#FAAD69', '#151515')
 
 " Taglist
 ":help taglist
-
-" Vim can detect the type of file that is edited.  This is done by checking the
-" file name and sometimes by inspecting the contents of the file for specific text.
-" http://vimdoc.sourceforge.net/htmldoc/filetype.html
-filetype plugin indent on
-
-" Set vim settings
-set noswapfile
-set number
-set lines=1000 columns=1000
-set expandtab ts=2 sw=2 ai
-
-syntax enable
-set background=dark
-colorscheme Tomorrow-Night
