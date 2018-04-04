@@ -38,6 +38,8 @@ sudo apt install fonts-powerline
 * [Showing git status flags](https://github.com/Xuyuanp/nerdtree-git-plugin)
 
 * [Syntax Checking](https://github.com/vim-syntastic/syntastic)
+  * [manual](https://github.com/vim-syntastic/syntastic/blob/master/doc/syntastic-checkers.txt) or `:help syntastic-checkers`
+  * `:SyntasticInfo` ~ show you which checkers are enabled
 
 * **Brief help**
   * `PluginList` ~ Lists configured plugins

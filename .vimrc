@@ -130,18 +130,12 @@ call NERDTreeHighlightFile('example', 'yellow', 'none', '#FAA7E5', '#151515')
 call NERDTreeHighlightFile('png', 'yellow', 'none', '#FAF0A7', '#151515')
 call NERDTreeHighlightFile('jpg', 'yellow', 'none', '#FAAD69', '#151515')
 
+" Syntax Checking
+let g:syntastic_auto_loc_list = 1
+
+
 "Save File
 :map <C-s> :w<cr>
-
-" Syntax Checking ==
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
-" let g:syntastic_always_populate_loc_list = 1
-" let g:syntastic_auto_loc_list = 1
-" let g:syntastic_check_on_open = 1
-" let g:syntastic_check_on_wq = 0
-" let g:syntastic_javascript_checkers = ['standard']
 
 " Move Line Down
 :nnoremap <A-DOWN> :m+<CR>==
