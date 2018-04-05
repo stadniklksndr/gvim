@@ -92,6 +92,10 @@ syntax enable
 set background=dark
 colorscheme Tomorrow-Night
 
+" Highlight search terms
+set hlsearch
+hi Search guibg=#7b92b7
+
 
 " vim-airline (:h airline)
 let g:airline_powerline_fonts = 1
