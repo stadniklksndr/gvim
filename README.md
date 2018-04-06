@@ -47,3 +47,7 @@ sudo apt install fonts-powerline
   * `PluginSearch` ~ Searches plugin; Append `!` to refresh local cache
   * `PluginClean` ~ Confirms removal of unused plugins; Append `!` to auto-approve removal
   * `:h PlaginName` ~ More details about plugin
+
+## Help :flashlight:
+
+  * [Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
