@@ -137,6 +137,7 @@ call NERDTreeHighlightFile('jpg', 'yellow', 'none', '#FAAD69', '#151515')
 " Syntax Checking
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
+let g:syntastic_javascript_checkers = ['standard']
 let g:syntastic_eruby_ruby_quiet_messages =
     \ {'regex': 'possibly useless use of a variable in void context'} " Disable false positives for erb files
 
