@@ -39,7 +39,10 @@ sudo apt install fonts-powerline
 
 * [Syntax Checking](https://github.com/vim-syntastic/syntastic)
   * [manual](https://github.com/vim-syntastic/syntastic/blob/master/doc/syntastic-checkers.txt) or `:help syntastic-checkers`
-  * `:SyntasticInfo` ~ show you which checkers are enabled
+  * `:SyntasticInfo` ~ show you which checkers are enabled for current file
+  * Current Settings
+    * `ruby_checkers` ~ `mri`, [rubocop](https://github.com/bbatsov/rubocop)
+    * `javascript_checkers` ~ [standard](https://github.com/feross/standard)
 
 * **Brief help**
   * `PluginList` ~ Lists configured plugins
