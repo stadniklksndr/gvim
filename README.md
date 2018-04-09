@@ -40,9 +40,18 @@ sudo apt install fonts-powerline
 * [Syntax Checking](https://github.com/vim-syntastic/syntastic)
   * [manual](https://github.com/vim-syntastic/syntastic/blob/master/doc/syntastic-checkers.txt) or `:help syntastic-checkers`
   * `:SyntasticInfo` ~ show you which checkers are enabled for current file
-  * Current Settings
+  * Current Settings:
     * `ruby_checkers` ~ `mri`, [rubocop](https://github.com/bbatsov/rubocop)
     * `javascript_checkers` ~ [standard](https://github.com/feross/standard)
+
+* [Git diff in the gutter](https://github.com/airblade/vim-gitgutter)
+  * Jump between hunks:
+    * `]c` ~ jump to next hunk
+    * `[c` ~ jump to previous hunk
+
+  * And you can turn line highlighting on and off (defaults to off):
+    * `:GitGutterLineHighlightsEnable` ~ turn on
+    * `:GitGutterLineHighlightsDisable` ~ turn off
 
 * **Brief help**
   * `PluginList` ~ Lists configured plugins

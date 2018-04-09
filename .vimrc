@@ -31,7 +31,7 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 " Syntax Checking ~ https://github.com/vim-syntastic/syntastic
 Plugin 'vim-syntastic/syntastic'
 
-" Shows A Git Diff In The Gutter
+" Shows A Git Diff In The Gutter ~ https://github.com/airblade/vim-gitgutter
 Plugin 'airblade/vim-gitgutter'
 
 " Colorscheme Pack
