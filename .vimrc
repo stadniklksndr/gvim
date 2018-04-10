@@ -10,10 +10,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 " Call vundle#begin('~/some/path/here')
 call vundle#begin()
 
-" Plug-in manager for Vim ~ https://github.com/VundleVim/Vundle.vim
+" Plug-in manager for vim ~ https://github.com/VundleVim/Vundle.vim
 Plugin 'VundleVim/Vundle.vim'
 
-" Status Line At The Bottom Of Each Window ~ https://github.com/vim-airline/vim-airline
+" Status line at the bottom of each window ~ https://github.com/vim-airline/vim-airline
 Plugin 'vim-airline/vim-airline'
 
 " Collection of themes for vim-airline ~ https://github.com/vim-airline/vim-airline-themes
@@ -22,17 +22,20 @@ Plugin 'vim-airline/vim-airline-themes'
 " Git wrapper ~ https://github.com/tpope/vim-fugitive
 Plugin 'tpope/vim-fugitive'
 
-" Tree Explorer ~ https://github.com/scrooloose/nerdtree
+" Tree explorer ~ https://github.com/scrooloose/nerdtree
 Plugin 'scrooloose/nerdtree'
 
 " Showing git status flags ~ https://github.com/Xuyuanp/nerdtree-git-plugin
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
-" Syntax Checking ~ https://github.com/vim-syntastic/syntastic
+" Syntax checking ~ https://github.com/vim-syntastic/syntastic
 Plugin 'vim-syntastic/syntastic'
 
-" Shows A Git Diff In The Gutter ~ https://github.com/airblade/vim-gitgutter
+" Shows git diff in the gutter ~ https://github.com/airblade/vim-gitgutter
 Plugin 'airblade/vim-gitgutter'
+
+" Grep search tools ~ https://github.com/vim-scripts/grep.vim
+Plugin 'grep.vim'
 
 " Colorscheme Pack
 Plugin 'flazz/vim-colorschemes'
@@ -77,6 +80,8 @@ Plugin 'digitaltoad/vim-pug.git'
 call vundle#end()
 
 
+" Vim Settings
+
 " Vim can detect the type of file that is edited.  This is done by checking the
 " file name and sometimes by inspecting the contents of the file for specific text.
 " http://vimdoc.sourceforge.net/htmldoc/filetype.html
@@ -97,7 +102,9 @@ set hlsearch
 hi Search guibg=#7b92b7
 
 
-" vim-airline (:h airline)
+" Plugins Settings
+
+" Vim-airline (:h airline)
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
@@ -107,11 +114,11 @@ let g:airline_symbols.branch = '⭡'
 " vim-airline-themes
 let g:airline_theme='base16_pop'
 
-" nerdtree
+" Nerdtree
 map <F2> :NERDTreeToggle<CR>
 map ww :tabnew<CR>:NERDTreeToggle<CR>
 
-" nerdtree file highlighting
+" Nerdtree file highlighting
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
  exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
  exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
@@ -134,12 +141,18 @@ call NERDTreeHighlightFile('example', 'yellow', 'none', '#FAA7E5', '#151515')
 call NERDTreeHighlightFile('png', 'yellow', 'none', '#FAF0A7', '#151515')
 call NERDTreeHighlightFile('jpg', 'yellow', 'none', '#FAAD69', '#151515')
 
-" Syntax Checking
+" Syntax checking
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 let g:syntastic_javascript_checkers = ['standard']
 let g:syntastic_eruby_ruby_quiet_messages =
     \ {'regex': 'possibly useless use of a variable in void context'} " Disable false positives for erb files
+
+" Grep
+map <C-f> :Rgrep<cr>
+let Grep_Default_Filelist = '*.*'
+let Grep_Skip_Files = '*.log *.sql *.png *.jpg *.jpeg *.gif'
+let Grep_Skip_Dirs = 'tmp system coverage log solr public'
 
 
 "Save File
