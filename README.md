@@ -55,7 +55,7 @@ sudo apt install fonts-powerline
     * `:GitGutterLineHighlightsEnable` ~ turn on
     * `:GitGutterLineHighlightsDisable` ~ turn off
 
-* [Grep](https://github.com/vim-scripts/grep.vim)
+* [Grep - search tool](https://github.com/vim-scripts/grep.vim)
 
 * **Brief help**
   * `PluginList` ~ Lists configured plugins
