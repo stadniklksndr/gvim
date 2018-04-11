@@ -8,6 +8,12 @@ sudo apt install fonts-powerline
 ```
 `BundleInstall` - **_run from editor console_** :feet:
 
+
+## Install syntax checkers
+  * `npm list --depth=0` ~ version of an installed npm package
+  * [npm install standard --global](https://standardjs.com/)
+  * [npm install -g coffeelint](http://www.coffeelint.org/)
+
 ## Plugins :children_crossing:
 
 * [Plugin manager for Vim](https://github.com/VundleVim/Vundle.vim)
@@ -45,6 +51,7 @@ sudo apt install fonts-powerline
 
     * `ruby_checkers` ~ `mri`, [rubocop](https://github.com/bbatsov/rubocop)
     * `javascript_checkers` ~ [standard](https://github.com/feross/standard)
+    * `coffee_checkers` ~ [coffeelint](http://www.coffeelint.org/)
 
 * [Git diff in the gutter](https://github.com/airblade/vim-gitgutter)
   * Jump between hunks:
