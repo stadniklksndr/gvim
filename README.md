@@ -14,7 +14,7 @@ sudo apt install fonts-powerline
   * `npm list -g --depth=0` ~ global version of an installed npm package
   * [sudo npm install standard --global](https://standardjs.com/)
   * [sudo npm install -g coffeelint](http://www.coffeelint.org/)
-  * [stylelint](https://stylelint.io/)
+  * [css & scss stylelint](https://stylelint.io/)
     * [sudo npm install -g stylelint](https://stylelint.io/)
     * [sudo npm install -g stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
     * Add `.stylelintrc.json` to root of your project
