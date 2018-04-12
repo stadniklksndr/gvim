@@ -11,8 +11,13 @@ sudo apt install fonts-powerline
 
 ## Install syntax checkers
   * `npm list --depth=0` ~ version of an installed npm package
-  * [npm install standard --global](https://standardjs.com/)
-  * [npm install -g coffeelint](http://www.coffeelint.org/)
+  * `npm list -g --depth=0` ~ global version of an installed npm package
+  * [sudo npm install standard --global](https://standardjs.com/)
+  * [sudo npm install -g coffeelint](http://www.coffeelint.org/)
+  * [stylelint](https://stylelint.io/)
+    * [sudo npm install -g stylelint](https://stylelint.io/)
+    * [sudo npm install -g stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
+    * Add `.stylelintrc.json` to root of your project
 
 ## Plugins :children_crossing:
 
@@ -52,6 +57,8 @@ sudo apt install fonts-powerline
     * `ruby_checkers` ~ `mri`, [rubocop](https://github.com/bbatsov/rubocop)
     * `javascript_checkers` ~ [standard](https://github.com/feross/standard)
     * `coffee_checkers` ~ [coffeelint](http://www.coffeelint.org/)
+    * `css_checkers` ~ [stylelint](https://stylelint.io/)
+    * `scss_checkers` ~ [stylelint](https://stylelint.io/)
 
 * [Git diff in the gutter](https://github.com/airblade/vim-gitgutter)
   * Jump between hunks:

@@ -1,0 +1,4 @@
+{
+  "__comment": "Insert /absolute/path/to/stylelint-config-standard in line below",
+  "extends": "/usr/lib/node_modules/stylelint-config-standard"
+}
