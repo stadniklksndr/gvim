@@ -61,7 +61,7 @@ Plugin 'taglist.vim'
 " Insert or delete brackets, parens, quotes in pair
 Plugin 'jiangmiao/auto-pairs'
 
-" CoffeeScript support
+" CoffeeScript support ~ https://github.com/kchmck/vim-coffee-script
 Plugin 'kchmck/vim-coffee-script'
 
 " Runtime files for haml, sass, and scss ~ https://github.com/tpope/vim-haml
