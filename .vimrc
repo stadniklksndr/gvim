@@ -64,7 +64,7 @@ Plugin 'jiangmiao/auto-pairs'
 " CoffeeScript support
 Plugin 'kchmck/vim-coffee-script'
 
-" Runtime files for Haml, Sass, and SCSS
+" Runtime files for haml, sass, and scss ~ https://github.com/tpope/vim-haml
 Plugin 'tpope/vim-haml'
 
 " Syntax highlighting
