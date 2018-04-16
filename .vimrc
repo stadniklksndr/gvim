@@ -150,6 +150,7 @@ let g:syntastic_css_checkers = ['stylelint']
 let g:syntastic_scss_checkers = ['stylelint']
 let g:syntastic_eruby_ruby_quiet_messages =
     \ {'regex': 'possibly useless use of a variable in void context'} " Disable false positives for erb files
+:map <F3> :!standard % --fix <cr>
 
 " Grep
 map <C-f> :Rgrep<cr>

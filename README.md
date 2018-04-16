@@ -55,7 +55,7 @@ sudo apt install fonts-powerline
   * Current Settings:
 
     * `ruby_checkers` ~ `mri`, [rubocop](https://github.com/bbatsov/rubocop)
-    * `javascript_checkers` ~ [standard](https://github.com/feross/standard)
+    * `javascript_checkers` ~ [standard](https://github.com/feross/standard), automatic-formatter by `<F3>`
     * `coffee_checkers` ~ [coffeelint](http://www.coffeelint.org/)
     * `css_checkers` ~ [stylelint](https://stylelint.io/)
     * `scss_checkers` ~ [stylelint](https://stylelint.io/)
