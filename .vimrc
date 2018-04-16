@@ -158,6 +158,10 @@ let Grep_Default_Filelist = '*.*'
 let Grep_Skip_Files = '*.log *.sql *.png *.jpg *.jpeg *.gif'
 let Grep_Skip_Dirs = 'tmp system coverage log solr public'
 
+" CoffeeScript support
+let coffee_compile_vert = 1 " Open the CoffeeCompile buffer with a vertical split
+let coffee_watch_vert = 1   " Open the CoffeeWatch buffer with a vertical split
+:map <F4> :CoffeeWatch <cr>
 
 "Save File
 :map <C-s> :w<cr>

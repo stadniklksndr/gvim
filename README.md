@@ -71,6 +71,10 @@ sudo apt install fonts-powerline
 
 * [Grep - search tool](https://github.com/vim-scripts/grep.vim)
 
+* [CoffeeScript support](https://github.com/kchmck/vim-coffee-script)
+  * [:CoffeeWatch vert](https://github.com/kchmck/vim-coffee-script#coffeewatch-live-preview-compiling) || `<F4>` ~ Live preview compiling
+  * [:CoffeeRun](https://github.com/kchmck/vim-coffee-script#coffeerun-run-coffeescript-snippets) ~ Run CoffeeScript Snippets
+
 * **Brief help**
   * `PluginList` ~ Lists configured plugins
   * `PluginInstall` ~ Installs plugins; Append `!` to update or just `PluginUpdate`
