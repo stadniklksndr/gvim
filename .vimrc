@@ -37,7 +37,7 @@ Plugin 'airblade/vim-gitgutter'
 " Grep search tools ~ https://github.com/vim-scripts/grep.vim
 Plugin 'grep.vim'
 
-" Colorscheme Pack
+" Colorscheme Pack ~ https://github.com/flazz/vim-colorschemes
 Plugin 'flazz/vim-colorschemes'
 
 " Helps To End Certain Structures Automatically

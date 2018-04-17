@@ -71,6 +71,12 @@ sudo apt install fonts-powerline
 
 * [Grep - search tool](https://github.com/vim-scripts/grep.vim)
 
+* [Colorscheme Pack](https://github.com/flazz/vim-colorschemes)
+  * `colorscheme nameofcolorscheme` ~ Change the colorscheme from `.vimrc`
+  * `:colorscheme molokai` ~ Inside vim
+  * [colors](https://github.com/flazz/vim-colorschemes/tree/master/colors)
+  * `Tomorrow-Night` ~ current color
+
 * [CoffeeScript support](https://github.com/kchmck/vim-coffee-script)
   * [:CoffeeWatch vert](https://github.com/kchmck/vim-coffee-script#coffeewatch-live-preview-compiling)   - OR -   `<F4>` ~ Live preview compiling
   * [:CoffeeRun](https://github.com/kchmck/vim-coffee-script#coffeerun-run-coffeescript-snippets) ~ Run CoffeeScript Snippets
