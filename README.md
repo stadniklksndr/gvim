@@ -21,9 +21,9 @@ sudo apt install fonts-powerline
 
 ## Plugins :children_crossing:
 
-* [Plugin manager for Vim](https://github.com/VundleVim/Vundle.vim)
+* [Plugin manager](https://github.com/VundleVim/Vundle.vim)
 
-* [Status Line At The Bottom Of Each Window](https://github.com/vim-airline/vim-airline)
+* [Status line at the bottom of each window](https://github.com/vim-airline/vim-airline)
   * `:h airline` ~ airline-contents
 
 * [Collection of themes for vim-airline](https://github.com/vim-airline/vim-airline-themes)
@@ -36,7 +36,7 @@ sudo apt install fonts-powerline
   * `:Git checkout master`
   * [more info](https://github.com/tpope/vim-fugitive#fugitivevim)
 
-* [Tree Explorer](https://github.com/scrooloose/nerdtree)
+* [Tree explorer](https://github.com/scrooloose/nerdtree)
   * `:help NERDTree.txt` ~ nerdtree-contents
   * `<F2>` ~ open nerdtree
   * `ww` ~ new tab
@@ -48,11 +48,11 @@ sudo apt install fonts-powerline
 
 * [Showing git status flags](https://github.com/Xuyuanp/nerdtree-git-plugin)
 
-* [Syntax Checking](https://github.com/vim-syntastic/syntastic)
+* [Syntax checking](https://github.com/vim-syntastic/syntastic)
   * [manual](https://github.com/vim-syntastic/syntastic/blob/master/doc/syntastic-checkers.txt) or `:help syntastic-checkers`
   * `:SyntasticInfo` ~ show you which checkers are enabled for current file
 
-  * Current Settings:
+  * Current settings:
 
     * `ruby_checkers` ~ `mri`, [rubocop](https://github.com/bbatsov/rubocop)
     * `javascript_checkers` ~ [standard](https://github.com/feross/standard), automatic-formatter by `<F3>`
@@ -71,22 +71,22 @@ sudo apt install fonts-powerline
 
 * [Grep - search tool](https://github.com/vim-scripts/grep.vim)
 
-* [Colorscheme Pack](https://github.com/flazz/vim-colorschemes)
-  * `colorscheme nameofcolorscheme` ~ Change the colorscheme from `.vimrc`
-  * `:colorscheme molokai` ~ Inside vim
+* [Colorscheme pack](https://github.com/flazz/vim-colorschemes)
+  * `colorscheme nameofcolorscheme` ~ change the colorscheme from `.vimrc`
+  * `:colorscheme molokai` ~ inside vim
   * [colors](https://github.com/flazz/vim-colorschemes/tree/master/colors)
   * `Tomorrow-Night` ~ current color
 
 * [CoffeeScript support](https://github.com/kchmck/vim-coffee-script)
-  * [:CoffeeWatch vert](https://github.com/kchmck/vim-coffee-script#coffeewatch-live-preview-compiling)   - OR -   `<F4>` ~ Live preview compiling
-  * [:CoffeeRun](https://github.com/kchmck/vim-coffee-script#coffeerun-run-coffeescript-snippets) ~ Run CoffeeScript Snippets
+  * [:CoffeeWatch vert](https://github.com/kchmck/vim-coffee-script#coffeewatch-live-preview-compiling)   - OR -   `<F4>` ~ live preview compiling
+  * [:CoffeeRun](https://github.com/kchmck/vim-coffee-script#coffeerun-run-coffeescript-snippets) ~ run coffee script snippets
 
 * **Brief help**
-  * `PluginList` ~ Lists configured plugins
-  * `PluginInstall` ~ Installs plugins; Append `!` to update or just `PluginUpdate`
-  * `PluginSearch` ~ Searches plugin; Append `!` to refresh local cache
-  * `PluginClean` ~ Confirms removal of unused plugins; Append `!` to auto-approve removal
-  * `:h PlaginName` ~ More details about plugin
+  * `PluginList` ~ lists configured plugins
+  * `PluginInstall` ~ installs plugins; Append `!` to update or just `PluginUpdate`
+  * `PluginSearch` ~ searches plugin; Append `!` to refresh local cache
+  * `PluginClean` ~ confirms removal of unused plugins; Append `!` to auto-approve removal
+  * `:h PlaginName` ~ more details about plugin
 
 ## Help :flashlight:
 
