@@ -70,6 +70,8 @@ sudo apt install fonts-powerline
     * `:GitGutterLineHighlightsDisable` ~ turn off
 
 * [Grep - search tool](https://github.com/vim-scripts/grep.vim)
+  * `/` - search in current file
+  * `ctrl + f` ~ global search
 
 * [Colorscheme pack](https://github.com/flazz/vim-colorschemes)
   * `colorscheme nameofcolorscheme` ~ change the colorscheme from `.vimrc`
