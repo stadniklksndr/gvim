@@ -1,4 +1,16 @@
 {
   "__comment": "Insert /absolute/path/to/stylelint-config-standard in line below",
-  "extends": "/usr/lib/node_modules/stylelint-config-standard"
+  "extends": "/usr/lib/node_modules/stylelint-config-standard",
+  "rules": {
+    "at-rule-empty-line-before": [
+      "always",
+      { "except": [
+          "blockless-after-same-name-blockless",
+          "first-nested"
+        ],
+        "ignore": ["after-comment"],
+        "ignoreAtRules": ["import"]
+      }
+    ]
+  }
 }
