@@ -40,7 +40,7 @@ Plugin 'grep.vim'
 " Colorscheme Pack ~ https://github.com/flazz/vim-colorschemes
 Plugin 'flazz/vim-colorschemes'
 
-" Helps To End Certain Structures Automatically
+" Helps To End Certain Structures Automatically ~ https://github.com/tpope/vim-endwise
 Plugin 'tpope/vim-endwise'
 
 " Ruby On Rails Power Tools

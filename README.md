@@ -80,6 +80,8 @@ sudo apt install fonts-powerline
   * [colors](https://github.com/flazz/vim-colorschemes/tree/master/colors)
   * `Tomorrow-Night` ~ current color
 
+* [Endwise](https://github.com/tpope/vim-endwise)
+
 * [CoffeeScript support](https://github.com/kchmck/vim-coffee-script)
   * [:CoffeeWatch vert](https://github.com/kchmck/vim-coffee-script#coffeewatch-live-preview-compiling)   - OR -   `<F4>` ~ live preview compiling
   * [:CoffeeRun](https://github.com/kchmck/vim-coffee-script#coffeerun-run-coffeescript-snippets) ~ run coffee script snippets
