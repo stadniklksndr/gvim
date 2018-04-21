@@ -83,6 +83,7 @@ sudo apt install fonts-powerline
 * [Endwise](https://github.com/tpope/vim-endwise)
 
 * [Rails](https://github.com/tpope/vim-rails)
+  * `gf` ~ open file under cursor
   * `:Rails console` ~ call rails console
   * `:Generate controller Blog` ~ generates a blog controller
   * `:Rails` ~  run the current test, spec, or feature
