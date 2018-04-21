@@ -37,13 +37,13 @@ Plugin 'airblade/vim-gitgutter'
 " Grep search tools ~ https://github.com/vim-scripts/grep.vim
 Plugin 'grep.vim'
 
-" Colorscheme Pack ~ https://github.com/flazz/vim-colorschemes
+" Colorscheme pack ~ https://github.com/flazz/vim-colorschemes
 Plugin 'flazz/vim-colorschemes'
 
-" Helps To End Certain Structures Automatically ~ https://github.com/tpope/vim-endwise
+" End certain structures automatically ~ https://github.com/tpope/vim-endwise
 Plugin 'tpope/vim-endwise'
 
-" Ruby On Rails Power Tools
+" Rails ~ https://github.com/tpope/vim-rails
 Plugin 'tpope/vim-rails'
 
 " Comments

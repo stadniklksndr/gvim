@@ -82,6 +82,12 @@ sudo apt install fonts-powerline
 
 * [Endwise](https://github.com/tpope/vim-endwise)
 
+* [Rails](https://github.com/tpope/vim-rails)
+  * `:Rails console` ~ call rails console
+  * `:Generate controller Blog` ~ generates a blog controller
+  * `:Rails` ~  run the current test, spec, or feature
+  * [manual](https://github.com/tpope/vim-rails/blob/master/doc/rails.txt) OR `:help rails.txt`
+
 * [CoffeeScript support](https://github.com/kchmck/vim-coffee-script)
   * [:CoffeeWatch vert](https://github.com/kchmck/vim-coffee-script#coffeewatch-live-preview-compiling)   - OR -   `<F4>` ~ live preview compiling
   * [:CoffeeRun](https://github.com/kchmck/vim-coffee-script#coffeerun-run-coffeescript-snippets) ~ run coffee script snippets
