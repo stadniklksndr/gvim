@@ -84,8 +84,12 @@ sudo apt install fonts-powerline
 
 * [Rails](https://github.com/tpope/vim-rails)
   * `gf` ~ open file under cursor, `:help rails-gf` ~ details
-  * `:A` ~ jump to an "alternate" file (test), `:help rails-alternate-related` ~ details
-  * `:R` ~ jump to "related" file (migration)
+  * `:AV` ~ jump to an "alternate" file (test), `:help rails-alternate-related` ~ details
+  * `:RV` ~ jump to "related" file (migration)
+  * `:2,3Extract post` ~ create a post partial from 2,3 lines
+  * `:[range]Extract {helper}` ~ Create a {name} helper from [range] lines (default:current line)
+  * `:[range]Extract {concern}` ~ Create a {name} concern from [range] lines (default: current line)
+  * `:Preview [path]` ~ Open the given path for the current app in a browser
   * `:Rails console` ~ call rails console
   * `:Generate controller Blog` ~ generates a blog controller
   * `:Rails` ~  run the current test, spec, or feature
