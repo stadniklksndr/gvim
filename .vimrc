@@ -43,6 +43,9 @@ Plugin 'flazz/vim-colorschemes'
 " End certain structures automatically ~ https://github.com/tpope/vim-endwise
 Plugin 'tpope/vim-endwise'
 
+" Surroundings ~ https://github.com/kana/vim-surround
+Plugin 'tpope/vim-surround'
+
 " Rails ~ https://github.com/tpope/vim-rails
 Plugin 'tpope/vim-rails'
 
@@ -51,9 +54,6 @@ Plugin 'comments.vim'
 
 " Filtering And Alignment
 Plugin 'godlygeek/tabular'
-
-" Surroundings
-Plugin 'tpope/vim-surround'
 
 " Taglist
 Plugin 'taglist.vim'

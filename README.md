@@ -82,6 +82,11 @@ sudo apt install fonts-powerline
 
 * [Endwise](https://github.com/tpope/vim-endwise)
 
+* [surround](https://github.com/kana/vim-surround)
+  * insert mode
+    * `ctrl + s + =` ~ <%= %>
+    * `ctrl + s + -` ~ <% -%>
+
 * [Rails](https://github.com/tpope/vim-rails)
   * `gf` ~ open file under cursor, `:help rails-gf` ~ details
   * `:AV` ~ jump to an "alternate" file (test), `:help rails-alternate-related` ~ details
