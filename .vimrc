@@ -73,7 +73,7 @@ Plugin 'slim-template/vim-slim'
 " Functions and commands for programming in Vim
 Plugin 'L9'
 
-" Vim syntax highlighting for Pug (formerly Jade) templates
+" Syntax highlighting for pug (formerly Jade) templates ~ https://github.com/digitaltoad/vim-pug
 Plugin 'digitaltoad/vim-pug.git'
 
 " All Of Your Plugins Must Be Added Before The Following Line
