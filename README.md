@@ -112,6 +112,6 @@ sudo apt install fonts-powerline
   * `:h PlaginName` ~ more details about plugin
 
 ## Help :flashlight:
-
+  * [Vimawesome](https://vimawesome.com/)
   * [Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
   * [Find in files within Vim](http://vim.wikia.com/wiki/Find_in_files_within_Vim)
