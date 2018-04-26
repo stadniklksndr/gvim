@@ -49,6 +49,18 @@ Plugin 'tpope/vim-surround'
 " Rails ~ https://github.com/tpope/vim-rails
 Plugin 'tpope/vim-rails'
 
+" CoffeeScript support ~ https://github.com/kchmck/vim-coffee-script
+Plugin 'kchmck/vim-coffee-script'
+
+" Runtime files for haml, sass, and scss ~ https://github.com/tpope/vim-haml
+Plugin 'tpope/vim-haml'
+
+" Slim syntax highlighting ~ https://github.com/slim-template/vim-slim
+Plugin 'slim-template/vim-slim'
+
+" Syntax highlighting for pug (formerly Jade) templates ~ https://github.com/digitaltoad/vim-pug
+Plugin 'digitaltoad/vim-pug.git'
+
 " Comments
 Plugin 'comments.vim'
 
@@ -61,20 +73,8 @@ Plugin 'taglist.vim'
 " Insert or delete brackets, parens, quotes in pair
 Plugin 'jiangmiao/auto-pairs'
 
-" CoffeeScript support ~ https://github.com/kchmck/vim-coffee-script
-Plugin 'kchmck/vim-coffee-script'
-
-" Runtime files for haml, sass, and scss ~ https://github.com/tpope/vim-haml
-Plugin 'tpope/vim-haml'
-
-" Syntax highlighting
-Plugin 'slim-template/vim-slim'
-
 " Functions and commands for programming in Vim
 Plugin 'L9'
-
-" Syntax highlighting for pug (formerly Jade) templates ~ https://github.com/digitaltoad/vim-pug
-Plugin 'digitaltoad/vim-pug.git'
 
 " All Of Your Plugins Must Be Added Before The Following Line
 call vundle#end()

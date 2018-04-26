@@ -104,7 +104,11 @@ sudo apt install fonts-powerline
   * [:CoffeeWatch vert](https://github.com/kchmck/vim-coffee-script#coffeewatch-live-preview-compiling)   - OR -   `<F4>` ~ live preview compiling
   * [:CoffeeRun](https://github.com/kchmck/vim-coffee-script#coffeerun-run-coffeescript-snippets) ~ run coffee script snippets
 
-* [Pug highlighting (formerly Jade)](https://github.com/digitaltoad/vim-pug)
+* [Haml](https://github.com/tpope/vim-haml)
+
+* [Slim](https://github.com/slim-template/vim-slim)
+
+* [Pug (formerly Jade)](https://github.com/digitaltoad/vim-pug)
 
 * **Brief help**
   * `PluginList` ~ lists configured plugins
