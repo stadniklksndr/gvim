@@ -61,6 +61,9 @@ Plugin 'slim-template/vim-slim'
 " Syntax highlighting for pug (formerly Jade) templates ~ https://github.com/digitaltoad/vim-pug
 Plugin 'digitaltoad/vim-pug.git'
 
+" Insert or delete brackets, parens, quotes in pair ~ https://github.com/jiangmiao/auto-pairs
+Plugin 'jiangmiao/auto-pairs'
+
 " Comments
 Plugin 'comments.vim'
 
@@ -69,9 +72,6 @@ Plugin 'godlygeek/tabular'
 
 " Taglist
 Plugin 'taglist.vim'
-
-" Insert or delete brackets, parens, quotes in pair
-Plugin 'jiangmiao/auto-pairs'
 
 " Functions and commands for programming in Vim
 Plugin 'L9'

@@ -110,6 +110,9 @@ sudo apt install fonts-powerline
 
 * [Pug (formerly Jade)](https://github.com/digitaltoad/vim-pug)
 
+* [Auto-pairs](https://github.com/jiangmiao/auto-pairs)
+  * [shortcuts](https://github.com/jiangmiao/auto-pairs#shortcuts)
+
 * **Brief help**
   * `PluginList` ~ lists configured plugins
   * `PluginInstall` ~ installs plugins; Append `!` to update or just `PluginUpdate`
