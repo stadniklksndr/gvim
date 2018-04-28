@@ -113,6 +113,9 @@ sudo apt install fonts-powerline
 * [Auto-pairs](https://github.com/jiangmiao/auto-pairs)
   * [shortcuts](https://github.com/jiangmiao/auto-pairs#shortcuts)
 
+* [Commentary](https://github.com/tpope/vim-commentary)
+  * `\\` ~ toggle comments
+
 * **Brief help**
   * `PluginList` ~ lists configured plugins
   * `PluginInstall` ~ installs plugins; Append `!` to update or just `PluginUpdate`

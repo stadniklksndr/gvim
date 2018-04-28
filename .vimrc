@@ -64,8 +64,8 @@ Plugin 'digitaltoad/vim-pug.git'
 " Insert or delete brackets, parens, quotes in pair ~ https://github.com/jiangmiao/auto-pairs
 Plugin 'jiangmiao/auto-pairs'
 
-" Comments
-Plugin 'comments.vim'
+" Comment stuff out ~ https://github.com/tpope/vim-commentary
+Plugin 'tpope/vim-commentary'
 
 " Filtering And Alignment
 Plugin 'godlygeek/tabular'
@@ -162,6 +162,9 @@ let Grep_Skip_Dirs = 'tmp system coverage log solr public'
 let coffee_compile_vert = 1 " Open the CoffeeCompile buffer with a vertical split
 let coffee_watch_vert = 1   " Open the CoffeeWatch buffer with a vertical split
 :map <F4> :CoffeeWatch <cr>
+
+" Commentary
+noremap <leader>\ :Commentary<cr>
 
 "Save File
 :map <C-s> :w<cr>
