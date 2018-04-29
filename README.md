@@ -116,6 +116,8 @@ sudo apt install fonts-powerline
 * [Commentary](https://github.com/tpope/vim-commentary)
   * `\\` ~ toggle comments
 
+* [Tabular](https://github.com/godlygeek/tabular)
+
 * **Brief help**
   * `PluginList` ~ lists configured plugins
   * `PluginInstall` ~ installs plugins; Append `!` to update or just `PluginUpdate`

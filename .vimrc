@@ -67,7 +67,7 @@ Plugin 'jiangmiao/auto-pairs'
 " Comment stuff out ~ https://github.com/tpope/vim-commentary
 Plugin 'tpope/vim-commentary'
 
-" Filtering And Alignment
+" Filtering And Alignment ~ https://github.com/godlygeek/tabular
 Plugin 'godlygeek/tabular'
 
 " Taglist
