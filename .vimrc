@@ -70,7 +70,7 @@ Plugin 'tpope/vim-commentary'
 " Filtering And Alignment ~ https://github.com/godlygeek/tabular
 Plugin 'godlygeek/tabular'
 
-" Taglist
+" Taglist ~ https://github.com/vim-scripts/taglist.vim
 Plugin 'taglist.vim'
 
 " Functions and commands for programming in Vim

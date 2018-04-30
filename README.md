@@ -118,6 +118,9 @@ sudo apt install fonts-powerline
 
 * [Tabular](https://github.com/godlygeek/tabular)
 
+* [Taglist](https://github.com/vim-scripts/taglist.vim)
+  * `:help taglist` ~ more information
+
 * **Brief help**
   * `PluginList` ~ lists configured plugins
   * `PluginInstall` ~ installs plugins; Append `!` to update or just `PluginUpdate`
