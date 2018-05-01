@@ -73,9 +73,6 @@ Plugin 'godlygeek/tabular'
 " Taglist ~ https://github.com/vim-scripts/taglist.vim
 Plugin 'taglist.vim'
 
-" Functions and commands for programming in Vim
-Plugin 'L9'
-
 " All Of Your Plugins Must Be Added Before The Following Line
 call vundle#end()
 
