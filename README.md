@@ -121,6 +121,13 @@ sudo apt install fonts-powerline
 * [Taglist](https://github.com/vim-scripts/taglist.vim)
   * `:help taglist` ~ more information
 
+* **Commands**
+  * `ctrl+s` ~ save file
+  * `alt+down` ~ move line down
+  * `alt+up` ~ move line up
+  * `ctrl+o` ~ previous file
+  * `ctrl+i` ~ back to last opened file
+
 * **Brief help**
   * `PluginList` ~ lists configured plugins
   * `PluginInstall` ~ installs plugins; Append `!` to update or just `PluginUpdate`

@@ -163,6 +163,9 @@ let coffee_watch_vert = 1   " Open the CoffeeWatch buffer with a vertical split
 " Commentary
 noremap <leader>\ :Commentary<cr>
 
+
+" Vim commands
+
 "Save File
 :map <C-s> :w<cr>
 
@@ -175,16 +178,3 @@ noremap <leader>\ :Commentary<cr>
 :nnoremap <A-UP> :m-2<CR>==
 :inoremap <A-UP> <Esc>:m-2<CR>==gi
 :vnoremap <A-UP> :m-2<CR>gv=gv
-
-" Filtering And Alignment Commands
-" :help tabular
-" :Tabularize /,         -> line these lines up at the commas;
-" :Tabularize /,/r0      -> print things right-aligned with no spaces between fields
-" :Tabularize /,/r1c1l0  -> Multiple format specifiers
-
-" Surroundings
-" '"Hello *world!"           ds"         Hello world!'
-" [123+4*56]/2              cs])        (123+456)/2
-
-" Taglist
-":help taglist
