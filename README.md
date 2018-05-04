@@ -5,6 +5,7 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 ln -s  ~/.vim/.vimrc ~/.vimrc
 sudo apt install exuberant-ctags
 sudo apt install fonts-powerline
+sudo apt install wmctrl
 ```
 `BundleInstall` - **_run from editor console_** :feet:
 

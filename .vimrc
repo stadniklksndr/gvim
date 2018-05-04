@@ -178,3 +178,8 @@ noremap <leader>\ :Commentary<cr>
 :nnoremap <A-UP> :m-2<CR>==
 :inoremap <A-UP> <Esc>:m-2<CR>==gi
 :vnoremap <A-UP> :m-2<CR>gv=gv
+
+function Maximize_Window()
+  silent !wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
+endfunction
+au GUIEnter * call Maximize_Window()
