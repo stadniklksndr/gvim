@@ -73,6 +73,9 @@ Plugin 'godlygeek/tabular'
 " Taglist ~ https://github.com/vim-scripts/taglist.vim
 Plugin 'taglist.vim'
 
+" Fuzzy finder ~ https://github.com/kien/ctrlp.vim
+Plugin 'ctrlpvim/ctrlp.vim'
+
 " All Of Your Plugins Must Be Added Before The Following Line
 call vundle#end()
 
@@ -162,6 +165,10 @@ let coffee_watch_vert = 1   " Open the CoffeeWatch buffer with a vertical split
 
 " Commentary
 noremap <leader>\ :Commentary<cr>
+
+" Ctrlp
+let g:ctrlp_custom_ignore = '\v[\/](\.git|\.hg|\.svn|tmp|coverage|log)$'
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:10,results:10'
 
 
 " Vim commands

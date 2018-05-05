@@ -122,6 +122,9 @@ sudo apt install wmctrl
 * [Taglist](https://github.com/vim-scripts/taglist.vim)
   * `:help taglist` ~ more information
 
+* [Fuzzy finder](https://github.com/kien/ctrlp.vim)
+  * `:CtrlP or :CtrlP [starting-directory]` ~ invoke ctrlp in find file mode
+
 * **Commands**
   * `ctrl+s` ~ save file
   * `alt+down` ~ move line down
