@@ -11,14 +11,16 @@ sudo apt install wmctrl
 
 
 ## Install syntax checkers
-  * `npm list --depth=0` ~ version of an installed npm package
-  * `npm list -g --depth=0` ~ global version of an installed npm package
   * [sudo npm install standard --global](https://standardjs.com/)
   * [sudo npm install -g coffeelint](http://www.coffeelint.org/)
   * [css & scss stylelint](https://stylelint.io/)
     * [sudo npm install -g stylelint](https://stylelint.io/)
     * [sudo npm install -g stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
-    * Add `.stylelintrc.json` to root of your project
+    * Add `.stylelintrc.json` to root of your project `required`
+
+  * npm help
+    * `npm list --depth=0` ~ version of an installed npm package
+    * `npm list -g --depth=0` ~ global version of an installed npm package
 
 ## Plugins :children_crossing:
 
