@@ -56,7 +56,7 @@ sudo apt install wmctrl
 
   * Current settings:
 
-    * `ruby_checkers` ~ `mri`, [rubocop](https://github.com/bbatsov/rubocop)
+    * `ruby_checkers` ~ `mri`, [rubocop](https://github.com/bbatsov/rubocop), rubocop auto-correct by `<F5>`
     * `javascript_checkers` ~ [standard](https://github.com/feross/standard), automatic-formatter by `<F3>`
     * `coffee_checkers` ~ [coffeelint](http://www.coffeelint.org/)
     * `css_checkers` ~ [stylelint](https://stylelint.io/)
