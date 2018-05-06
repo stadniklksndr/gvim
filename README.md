@@ -83,7 +83,7 @@ sudo apt install wmctrl
 
 * [Endwise](https://github.com/tpope/vim-endwise)
 
-* [surround](https://github.com/kana/vim-surround)
+* [Surround](https://github.com/kana/vim-surround)
   * insert mode
     * `ctrl + s + =` ~ <%= %>
     * `ctrl + s + -` ~ <% -%>
