@@ -11,7 +11,7 @@ sudo apt install wmctrl
 
 
 ## Install syntax checkers
-  * [sudo npm install standard --global](https://standardjs.com/)
+  * [sudo npm install -g standard](https://standardjs.com/)
   * [sudo npm install -g coffeelint](http://www.coffeelint.org/)
   * [css & scss stylelint](https://stylelint.io/)
     * [sudo npm install -g stylelint](https://stylelint.io/)
@@ -40,7 +40,7 @@ sudo apt install wmctrl
   * [more info](https://github.com/tpope/vim-fugitive#fugitivevim)
 
 * [Tree explorer](https://github.com/scrooloose/nerdtree)
-  * `:help NERDTree.txt` ~ nerdtree-contents
+  * `:help NERDTree.txt` ~ nerdtree contents
   * `<F2>` ~ open nerdtree
   * `ww` ~ new tab
   * `ctrl+w+q` ~ close tab
@@ -95,9 +95,9 @@ sudo apt install wmctrl
   * `:AV` ~ jump to an "alternate" file (test), `:help rails-alternate-related` ~ details
   * `:RV` ~ jump to "related" file (migration)
   * `:2,3Extract post` ~ create a post partial from 2,3 lines
-  * `:[range]Extract {helper}` ~ Create a {name} helper from [range] lines (default:current line)
-  * `:[range]Extract {concern}` ~ Create a {name} concern from [range] lines (default: current line)
-  * `:Preview [path]` ~ Open the given path for the current app in a browser
+  * `:[range]Extract {helper}` ~ create a {name} helper from [range] lines (default:current line)
+  * `:[range]Extract {concern}` ~ create a {name} concern from [range] lines (default: current line)
+  * `:Preview [path]` ~ open the given path for the current app in a browser
   * `:Rails console` ~ call rails console
   * `:Generate controller Blog` ~ generates a blog controller
   * `:Rails` ~  run the current test, spec, or feature
@@ -143,5 +143,5 @@ sudo apt install wmctrl
 
 ## Help :flashlight:
   * [Vimawesome](https://vimawesome.com/)
-  * [Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
-  * [Find in files within Vim](http://vim.wikia.com/wiki/Find_in_files_within_Vim)
+  * [Best of vim tips](http://zzapper.co.uk/vimtips.html)
+  * [Find in files within vim](http://vim.wikia.com/wiki/Find_in_files_within_Vim)
