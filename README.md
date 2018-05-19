@@ -10,7 +10,7 @@ sudo apt install wmctrl
 `BundleInstall` - **_run from editor console_** :feet:
 
 
-## Install syntax checkers
+## Install syntax checkers :pill:
   * [sudo npm install -g standard](https://standardjs.com/)
   * [sudo npm install -g coffeelint](http://www.coffeelint.org/)
   * [css & scss stylelint](https://stylelint.io/)
