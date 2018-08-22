@@ -26,6 +26,18 @@ sudo apt install wmctrl
 
 * [Plugin manager](https://github.com/VundleVim/Vundle.vim)
 
+* [Syntax checking](https://github.com/vim-syntastic/syntastic)
+  * [manual](https://github.com/vim-syntastic/syntastic/blob/master/doc/syntastic-checkers.txt) or `:help syntastic-checkers`
+  * `:SyntasticInfo` ~ show you which checkers are enabled for current file
+
+  * Current settings:
+
+    * `ruby_checkers` ~ `mri`, [rubocop](https://github.com/bbatsov/rubocop), rubocop auto-correct by `<F5>`
+    * `javascript_checkers` ~ [standard](https://github.com/feross/standard), automatic-formatter by `<F3>`
+    * `coffee_checkers` ~ [coffeelint](http://www.coffeelint.org/)
+    * `css_checkers` ~ [stylelint](https://stylelint.io/)
+    * `scss_checkers` ~ [stylelint](https://stylelint.io/)
+
 * [Status line at the bottom of each window](https://github.com/vim-airline/vim-airline)
   * `:h airline` ~ airline-contents
 
@@ -51,18 +63,6 @@ sudo apt install wmctrl
   * [f.a.q.](https://github.com/scrooloose/nerdtree/wiki/F.A.Q.)
 
 * [Showing git status flags](https://github.com/Xuyuanp/nerdtree-git-plugin)
-
-* [Syntax checking](https://github.com/vim-syntastic/syntastic)
-  * [manual](https://github.com/vim-syntastic/syntastic/blob/master/doc/syntastic-checkers.txt) or `:help syntastic-checkers`
-  * `:SyntasticInfo` ~ show you which checkers are enabled for current file
-
-  * Current settings:
-
-    * `ruby_checkers` ~ `mri`, [rubocop](https://github.com/bbatsov/rubocop), rubocop auto-correct by `<F5>`
-    * `javascript_checkers` ~ [standard](https://github.com/feross/standard), automatic-formatter by `<F3>`
-    * `coffee_checkers` ~ [coffeelint](http://www.coffeelint.org/)
-    * `css_checkers` ~ [stylelint](https://stylelint.io/)
-    * `scss_checkers` ~ [stylelint](https://stylelint.io/)
 
 * [Git diff in the gutter](https://github.com/airblade/vim-gitgutter)
   * Jump between hunks:
