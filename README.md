@@ -1,7 +1,7 @@
 # Install IDE
 ```
 git clone https://github.com/stadniklksndr/gvim.git ~/.vim
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ln -s  ~/.vim/.vimrc ~/.vimrc
 sudo apt install exuberant-ctags
 sudo apt install fonts-powerline
