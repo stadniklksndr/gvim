@@ -8,7 +8,7 @@ sudo apt install exuberant-ctags
 sudo apt install fonts-powerline
 sudo apt install wmctrl
 ```
-`BundleInstall` - **_run from editor console_** :feet:
+`BundleInstall` - **_run from Vim command line** :feet:
 
 
 ## Install syntax checkers :pill:
