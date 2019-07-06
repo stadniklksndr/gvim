@@ -1,5 +1,6 @@
 # Install IDE
 ```
+sudo apt-get install vim-gnome
 git clone https://github.com/stadniklksndr/gvim.git ~/.vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ln -s  ~/.vim/.vimrc ~/.vimrc
