@@ -76,6 +76,12 @@ Plugin 'taglist.vim'
 " Fuzzy finder ~ https://github.com/kien/ctrlp.vim
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" Typescript syntax ~ https://github.com/leafgarland/typescript-vim 
+Plugin 'leafgarland/typescript-vim'
+
+" React JSX syntax highlighting for vim and Typescript ~ https://github.com/peitalin/vim-jsx-typescript
+Plugin 'peitalin/vim-jsx-typescript'
+
 " All Of Your Plugins Must Be Added Before The Following Line
 call vundle#end()
 
@@ -140,6 +146,7 @@ call NERDTreeHighlightFile('config', 'yellow', 'none', 'yellow', '#151515')
 call NERDTreeHighlightFile('example', 'yellow', 'none', '#FAA7E5', '#151515')
 call NERDTreeHighlightFile('png', 'yellow', 'none', '#FAF0A7', '#151515')
 call NERDTreeHighlightFile('jpg', 'yellow', 'none', '#FAAD69', '#151515')
+call NERDTreeHighlightFile('tsx', 'yellow', 'none', '#00ace6', '#151515')
 
 " Syntax checking
 let g:syntastic_auto_loc_list = 1
