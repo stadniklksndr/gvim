@@ -23,6 +23,11 @@ sudo apt install wmctrl
     * `npm list --depth=0` ~ version of an installed npm package
     * `npm list -g --depth=0` ~ global version of an installed npm package
 
+## Commands :floppy_disk:
+
+* `G`  - go down
+* `gg` - go up
+
 ## Plugins :children_crossing:
 
 * [Plugin manager](https://github.com/VundleVim/Vundle.vim)
