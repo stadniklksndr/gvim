@@ -25,8 +25,9 @@ sudo apt install wmctrl
 
 ## Commands :floppy_disk:
 
-* `G`  - go down
-* `gg` - go up
+* `G`      - take me to the bottom of the page
+* `gg`     - take me to the top of the page
+* `{`, `}` - skips block of code 
 
 ## Plugins :children_crossing:
 
