@@ -40,6 +40,17 @@ sudo apt install wmctrl
 * `P` - paste above
 * `o` - add new line below and put you in insert mode (letter)
 * `O` - add new line above and put you in insert mode
+* `w` - move to the next word
+* `b` - move in reverse direction
+* `:20` - go to the specific line
+* `0` - takes you to the begin of current line (zero)
+* `^` - takes you to the bigin of code in current line
+* `$` - takes you to the end of the line
+* `t{any letter or sybol}` - take you to chosen letter in line
+* `f{letter || sybol}` - takes you to letter and highlight it in line
+* `%` - switches between `{`, `}` and so on
+% `d%` - delete everything in (), for example `(this will be deleted)`
+% `cw` - reword word, set cursor at the begin of word
 
 ## Plugins :children_crossing:
 
