@@ -32,6 +32,14 @@ sudo apt install wmctrl
 * `10k` - move cursor to position - 10 line
 * `2}` - move cursor to position + 2 block
 * `2{` - move cursor to position - 2 block
+* `dd` - delete line (also you can paste delited line using `p`)
+* `u` - undo delete
+* `.` - run last command again
+* `yy` - copy line
+* `p` - paste below
+* `P` - paste above
+* `o` - add new line below and put you in insert mode (letter)
+* `O` - add new line above and put you in insert mode
 
 ## Plugins :children_crossing:
 
