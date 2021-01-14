@@ -50,7 +50,14 @@ sudo apt install wmctrl
 * `f{letter || sybol}` - takes you to letter and highlight it in line
 * `%` - switches between `{`, `}` and so on
 * `d%` - delete everything in (), for example `(this will be deleted)`
-* `cw` - reword word, set cursor at the begin of word
+* `cw` - reword word (set cursor at the begin of word)
+* `dw` - delete word (set cursor at the begin of word)
+* `D` - delete everything from tre right of cursor
+* `C` - delete everything from tre right and put you into insert mode
+* `ct{letter || symbol}` - delete everything up to chosen letter and put you into insert mode
+* `dt{letter || symbol}` - delete everything up to chosen letter
+* `shift+*` - highlight current word everything in the file
+* `n` - switches between highlighted words
 
 ## Plugins :children_crossing:
 
