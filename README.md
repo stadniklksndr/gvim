@@ -28,9 +28,10 @@ sudo apt install wmctrl
 * `G` &nbsp; &nbsp; &nbsp; - take me to the bottom of the page
 * `gg` &nbsp;  &nbsp; - take me to the top of the page
 * `{`, `}` - skips block of code 
-* `20j` - move cursor to + 20 line
-* `10k` - move cursor to - 10 line
-* `2}` - move cursor to + 2 block
+* `20j` - move cursor to position + 20 line
+* `10k` - move cursor to position - 10 line
+* `2}` - move cursor to position + 2 block
+* `2{` - move cursor to position - 2 block
 
 ## Plugins :children_crossing:
 
