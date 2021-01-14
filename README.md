@@ -49,8 +49,8 @@ sudo apt install wmctrl
 * `t{any letter or sybol}` - take you to chosen letter in line
 * `f{letter || sybol}` - takes you to letter and highlight it in line
 * `%` - switches between `{`, `}` and so on
-% `d%` - delete everything in (), for example `(this will be deleted)`
-% `cw` - reword word, set cursor at the begin of word
+* `d%` - delete everything in (), for example `(this will be deleted)`
+* `cw` - reword word, set cursor at the begin of word
 
 ## Plugins :children_crossing:
 
