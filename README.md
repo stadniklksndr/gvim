@@ -58,6 +58,14 @@ sudo apt install wmctrl
 * `dt{letter || symbol}` - delete everything up to chosen letter
 * `shift+*` - highlight current word everything in the file
 * `n` - switches between highlighted words
+* `a` - takes you in insert mode over the one letter
+* `A` - takes you into insert mode to the end of the line
+* `I` - takes you into insert mode to start of the line
+* `x` - delete current letter
+* `~` - makes letter Up or Down
+* `r{letter}` - replaces letter
+* `<`, `>` - moves highlighted code
+* `<<`, `>>` - moves current line
 
 ## Plugins :children_crossing:
 
