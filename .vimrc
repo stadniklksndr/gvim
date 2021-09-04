@@ -82,6 +82,9 @@ Plugin 'leafgarland/typescript-vim'
 " React JSX syntax highlighting for vim and Typescript ~ https://github.com/peitalin/vim-jsx-typescript
 Plugin 'peitalin/vim-jsx-typescript'
 
+" Vim syntax highlighting for Vue components - https://github.com/posva/vim-vue
+Plugin 'posva/vim-vue'
+
 " All Of Your Plugins Must Be Added Before The Following Line
 call vundle#end()
 
