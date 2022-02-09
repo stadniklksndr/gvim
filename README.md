@@ -66,6 +66,9 @@ sudo apt install wmctrl
 * `r{letter}` - replaces letter
 * `<`, `>` - moves highlighted code
 * `<<`, `>>` - moves current line
+## Marks
+* Use m{a-zA-z} to set a mark point in your document
+* Use '{a-zA-Z} to jump to a set mark point
 
 ## Plugins :children_crossing:
 
