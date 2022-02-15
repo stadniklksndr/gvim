@@ -69,6 +69,9 @@ sudo apt install wmctrl
 ## Marks
 * Use m{a-zA-z} to set a mark point in your document
 * Use '{a-zA-Z} to jump to a set mark point
+## Execute command
+ * :!<command>
+ * :!ls - example 
 
 ## Plugins :children_crossing:
 
