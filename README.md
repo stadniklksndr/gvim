@@ -71,7 +71,8 @@ sudo apt install wmctrl
 * Use '{a-zA-Z} to jump to a set mark point
 ## Execute command
  * :!<command>
- * :!ls - example 
+ * :!ls - example
+ * :!python % => % is current filename
 
 ## Plugins :children_crossing:
 
