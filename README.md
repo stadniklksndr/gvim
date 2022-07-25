@@ -24,7 +24,6 @@ sudo apt install wmctrl
     * `npm list -g --depth=0` ~ global version of an installed npm package
 
 ## Commands :floppy_disk:
-
 * `G` &nbsp; &nbsp; &nbsp; - take me to the bottom of the page
 * `gg` &nbsp;  &nbsp; - take me to the top of the page
 * `{`, `}` - skips block of code 
@@ -66,6 +65,7 @@ sudo apt install wmctrl
 * `r{letter}` - replaces letter
 * `<`, `>` - moves highlighted code
 * `<<`, `>>` - moves current line
+* `put =expand('%:p')` - insert lines consisting of the full path (https://vi.stackexchange.com/questions/104/how-can-i-see-the-full-path-of-the-current-file)
 ## Marks
 * Use m{a-zA-z} to set a mark point in your document
 * Use '{a-zA-Z} to jump to a set mark point
