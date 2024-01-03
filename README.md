@@ -26,6 +26,7 @@ sudo apt install wmctrl
 ## Commands :floppy_disk:
 * `G` &nbsp; &nbsp; &nbsp; - take me to the bottom of the page
 * `gg` &nbsp;  &nbsp; - take me to the top of the page
+* `U` - convert to uppercase (but firstly visually select text), `u` to convert to lowercase
 * `{`, `}` - skips block of code 
 * `20j` - move cursor to position + 20 line
 * `10k` - move cursor to position - 10 line
@@ -73,6 +74,8 @@ sudo apt install wmctrl
  * :!<command>
  * :!ls - example
  * :!python % => % is current filename
+ * `:%s/foo/bar/g` - find each occurrence of 'foo' (in all lines), and replace it with 'bar'
+ * `:6,10s/foo/bar/g` - change each 'foo' to 'bar' for all lines from line 6 to line 10 inclusive.
 
 ## Plugins :children_crossing:
 
