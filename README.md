@@ -67,6 +67,8 @@ sudo apt install wmctrl
 * `<`, `>` - moves highlighted code
 * `<<`, `>>` - moves current line
 * `put =expand('%:p')` - insert lines consisting of the full path (https://vi.stackexchange.com/questions/104/how-can-i-see-the-full-path-of-the-current-file)
+* `:mksession! ~/.vim_session` - save All Tabs Before Closing GVim
+* `:source ~/.vim_session` - restore Session When Reopening GVim
 ## Marks
 * Use m{a-zA-z} to set a mark point in your document
 * Use '{a-zA-Z} to jump to a set mark point
